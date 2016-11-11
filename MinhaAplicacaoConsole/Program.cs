@@ -18,6 +18,8 @@ namespace MinhaAplicacaoConsole
             strNome = Console.ReadLine();
             //Mostrando uma mensagem na tela, utilizando o que foi lido do teclado
             Console.WriteLine("Olá " + strNome + ". Seja bem vind@!");
+            //Mostrando uma mensagem na tela || Uma quebra de linha
+            Console.WriteLine();
             //Mostrando uma mensagem na tela
             Console.WriteLine("Precione qualquer tecla para continuar...");
             //Espera que alguma tecla seja precionada para encerrar a aplicação
